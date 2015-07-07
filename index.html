@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+     <head>
+     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+     <meta charset="utf-8">
+     <meta http-equiv="x-ua-compatible" content="ie=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+     <title>Young Executives</title>
+     </head>
+          <body> 
+               <div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+                    <div class="container">
+                    <div class="navbar-header">
+                         <button type="button" class="navbar-toggle" navbar-toggle="collapse" data-target="navbar-collapse"> 
+                              <span class="ar-only">Toggle Navigation</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                         </button>
+                    <a href="index.html" class="navbar-brand">Young Executives</a>
+                    </div>
+                         <div class="collapse navbar-collapse" id="example">    
+                              <ul class="nav navbar-nav">
+                                  
+                                   <li class="dropdown"><a href="resume.html" dropdown-toggle="">Video References</a></li>
+                                   <li class="dropdown"><a href="about.html" dropdown-toggle="">About Us</a></li>
+                                   <li class="dropdown"><a href="contact.html" dropdown-toggle="">lessons</a></li>
+                              </ul>
+                         <a href="http://herbertmennis.github.io/" class="btn btn-primary navbar-btn">Herbert's website.</a>
+                              <form action="" class="navbar-form navbar-right" role="search">
+                              <div class="form-group">
+                                   <input type="text" class="form-control" placeholder="search">
+                              </div>
+                              <button type="sumbit" class="btn btn-primary">submit</button>
+                              </form>
+                              </div>
+                         </div>
+                    </div>
+                         <div class="col-md-6">
+                              <img class="title-logo img-responsive col-md-6" src="image/cool-logo.jpg" alt="Young Executives"> 
+                         </div>    
+                              <div class="container">
+                                   <div class="row">
+                                        <div class="col-md-6 text-right text-uppercase">
+                                             <h1 class="title-super text-thin">Young Executives</h1>
+                                             <h3>Future CEOs</h3>
+                                   </div>
+                              </div>
+     
+          <div class="row">
+               <div class="col-md-12">
+                    <hr>
+               </div>
+          </div>
+          
+          <section>
+          <div class="row">
+               <div class="col-md-12">
+                    <img src="image/group1.jpg" class="img-responsive" data-toggle="modal" data-target="#project4" alt="group">
+               </div>
+          </div>
+          
+          <div class="row">
+               <div class="col-md-12">
+                    <h2 class="text-muted">The Founders of the Website.</h2>
+               </div>
+          </div>
+          <!-- just a figure -->
+          <nav>
+          <figure>
+          <div class="row  text-center">
+               <div class="col-md-4">
+                    <img src="image/herbert.jpg" class="img-responsive" data-toggle="modal" data-target="#project1" alt="herbert">
+                    <h4 class="text-uppercase">Herbert</h4>
+                    <article><p>Click here to learn more about Herbert</p></article>
+               </div>
+               
+               <div class="col-md-4">
+                    <img src="image/marcus1.jpg" class="img-responsive" data-toggle="modal" data-target="#project2" alt="marcus">
+                    <h4 class="text-uppercase">Marcus</h4>
+                    <article><p>Click here to learn more about Marcus.</p></article>
+               </div>
+          
+               <div class="col-md-4">
+                    <img src="image/justin2.jpg" class="img-responsive" data-toggle="modal" data-target="#project3" alt="justin">
+                         <h4 class="text-uppercase">Justin</h4>
+                              <article><p>Click here to learn more about Justin.</p></article>
+               </div>
+                         </div>
+          </nav>
+          </figure>
+          </section>
+          <!-- figure with figcaption -->
+          
+          <!-- Modal -->
+          <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                    <div class="modal-content">
+                         <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Herbert's bio</h4>
+                          </div>
+                          <div class="modal-body">
+                            <img class="img-responsive" src="image/herbert.jpg" alt="herbert">
+                              I enjoy video games, anime/cartoons, mangas/comic books, and traveling. Physic activity include swimming, jogging, bike riding, football, and basketball. 
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end of modal -->
+
+     <!-- Modal -->
+                    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Marcus's bio</h4>
+                          </div>
+                          <div class="modal-body">
+                            <img class="img-responsive" src="image/marcus1.jpg" alt="marcus">
+                            1.  Jazz Pianist
+                            2.  Avid Gamer of Xbox shooters
+                            3.  Enjoys reading
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end of modal -->
+
+          <!-- Modal -->
+                    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Justin's Bio</h4>
+                          </div>
+                          <div class="modal-body">
+                            <img class="img-responsive" src="image/justin2.jpg" alt="justin">
+                            Justin Loves basketball and football and knows a variety of sports.
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end of modal -->
+     <!-- Modal -->
+                    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Group Shot</h4>
+                          </div>
+                          <div class="modal-body">
+                            <img class="img-responsive" src="image/group.jpg" alt="azir">
+                            The Group of future Executives.
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end of modal -->
+                         <footer>
+                              <p>this is a project of Herbert J Mennis, Justin Card, and Marcus Guyton.</p> 
+                         </footer>
+                    </div>
+          </body>
+</html>
